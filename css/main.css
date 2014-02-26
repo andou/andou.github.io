@@ -4,6 +4,7 @@
 /*
 /*****************************************************************************/
 
+
 /* Global Reset */
 * {
   margin: 0;
@@ -55,12 +56,16 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-.site {
+.site-wrap {
   font-size: 115%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
+}
+
+.site{
+  padding: 5px;
 }
 
 .header a {
@@ -71,6 +76,7 @@ a:visited { color: #a0a; }
 .title {
   display: inline-block;
   margin-bottom: 2em;
+  font-family: 'Lato', sans-serif;
 }
 
 .title a {
@@ -100,6 +106,7 @@ a:visited { color: #a0a; }
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  clear: both;
 }
 
 .footer .contact {
@@ -119,6 +126,30 @@ a:visited { color: #a0a; }
 
 .footer .rss img {
   border: 0;
+}
+
+/*****************************************************************************/
+/*
+/* Home page
+/*
+/*****************************************************************************/
+
+.hp-image{
+  float:right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -ms-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+.hp-image:hover{
+  opacity: .87;
 }
 
 /*****************************************************************************/
