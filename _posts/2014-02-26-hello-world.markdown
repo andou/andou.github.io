@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello World!!"
-date: {}
+date: 2014-02-26 18:10:09
 categories: updates
 published: true
 ---
