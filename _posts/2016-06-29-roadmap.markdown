@@ -25,6 +25,7 @@ In ordine di priorità
 Sparso
 
 - Dare organicità a categorie e tag
+- Introdurre la categoria *viaggi*
 - Introdurre la categoria *musica*
 - Introdurre la categoria *birra*
 - Integrare [Bit.ly](https://bitly.com/)
