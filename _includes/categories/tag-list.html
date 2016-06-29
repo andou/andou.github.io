@@ -1,0 +1,6 @@
+{% include categories/tag-extractor.html %}
+<ul class="tag-list {{ current_cat }}-tag-list">
+  {% for tag in tags %}
+  <li><a href="/{{ current_cat | slugify }}/{{ tag  | slugify }}/" class="tag">{{ tag }}</a></li>
+  {% endfor %}
+</ul>

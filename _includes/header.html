@@ -1,8 +1,11 @@
 <header class="site-header">
 
   <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% if page.layout != 'home' %}
+    <a class="site-title" href="{{ site.baseurl }}/">
+      <img class="andou-photo" title="me" alt="andou.github.io" src="http://gravatar.com/avatar/1bd303f872dffaf0b909e1f83d304c14?s=70">
+    </a>
+    {% endif %}
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -15,7 +18,7 @@
 
       <div class="trigger">
         {% for my_page in site.pages %}
-          {% if my_page.title %}
+          {% if my_page.title and my_page.layout == 'page'%}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}

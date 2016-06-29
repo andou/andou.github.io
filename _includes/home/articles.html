@@ -1,0 +1,54 @@
+<section class="articles">
+  <div class="list sticky">
+      <h2 class="heading"><span class="flag">In evidenza</span></h2>
+      <ul class="post-list">
+        {% assign post_counter = 0 %}
+        {% assign post_limit = 1 %}
+        {% for post in site.posts %}
+          {% if post.tags contains 'sticky' %}
+            <li>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h3>
+              <ul class="tag-list">
+                {% for tag in post.tags %}
+                <a href="/{{ post.categories | first | slugify }}/{{ tag  | slugify }}/" class="tag">{{ tag }}</a>
+                {% endfor %}
+              </ul>
+            </li>
+            {% capture post_counter %}{{ post_counter | plus:1 }}{% endcapture %}{% assign control_counter = post_counter | plus: 0 %}
+            {% if control_counter > post_limit %}
+            {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+  </div>
+  <div class="list">
+    <h2 class="heading centered"><span class="hash">Ultimi articoli</span></h2>
+    <ul class="post-list">
+      {% assign post_counter = 0 %}
+      {% assign post_limit = 2 %}
+      {% for post in site.posts %}
+        {% unless post.tags contains 'sticky' %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+            <ul class="tag-list">
+              {% for tag in post.tags %}
+              <a href="/{{ post.categories | first | slugify }}/{{ tag  | slugify }}/" class="tag">{{ tag }}</a>
+              {% endfor %}
+            </ul>
+          </li>
+          {% capture post_counter %}{{ post_counter | plus:1 }}{% endcapture %}{% assign control_counter = post_counter | plus: 0 %}
+          {% if control_counter > post_limit %}
+          {% break %}
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

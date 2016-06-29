@@ -1,0 +1,6 @@
+{% for cat in page.categories | first %}
+<a href="/{{ page.categories | first | slugify }}" class="tag cat">{{ cat }}</a>
+{% endfor %}
+{% for tag in page.tags %}
+<a href="/{{ page.categories | first | slugify }}/{{ tag  | slugify }}/" class="tag">{{ tag }}</a>
+{% endfor %}

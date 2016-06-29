@@ -7,8 +7,8 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="{{ site.baseurl }}/resume/eng">Resumè</a></li>
         </ul>
       </div>
 
@@ -29,7 +29,8 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <p class="rss-subscribe">Segui <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a></p>
+        <p class="rss-subscribe"><a href="https://github.com/andou/andou.github.io" target="_blank">Codice sorgente di questo sito</a></p>
       </div>
     </div>
 

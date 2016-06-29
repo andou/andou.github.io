@@ -15,12 +15,28 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #f9f9f9;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$white-color:       #fff;
+
+//Home
+$home-descr-color:   #828282;
+
+
+//Tag colors
+$tag-color:          #fff;
+$tag-hover-color:    #fff;
+$tag-bg-color:       #acacac;
+$tag-hover-bg-color: #2a7ae2;
+$tag-bullet-color:   #f5f5f5;
+
+//Articles list
+$list-line-color:    #dfdfdf;
+$stklst-line-color:  #cc2f2f;
 
 // Width of the content area
 $content-width:    800px;
@@ -49,5 +65,11 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "custombase",
+        "customlayout",
+        "tags",
+        "home",
+        "resume",
+        "recipe"
 ;
