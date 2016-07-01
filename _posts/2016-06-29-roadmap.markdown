@@ -24,7 +24,7 @@ In ordine di priorità
 
 Sparso
 
-- <s>Inserire *Google Analytics*</s>
+- <s>Inserire <em>Google Analytics</em></s>
 - Dare organicità a categorie e tag
 - Introdurre la categoria *viaggi*
 - Introdurre la categoria *musica*
