@@ -13,7 +13,7 @@ level: "Facile"
 ## Ingredienti
 Per circa 30 biscotti tondi di 4cm di diametro:
 
--   Farina di segale integrale
+-   Farina di segale (o farro) integrale
     - 200g
 -   Farina tipo "0"
     - 50g
@@ -22,7 +22,7 @@ Per circa 30 biscotti tondi di 4cm di diametro:
 -   Zucchero
     - 100g
 -   Lievito secco
-    - mezza bustina (~8g)
+    - mezza bustina (~4g)
 -   Bicarbonato
     - mezzo cucchiaino da caffè
 -   Olio
