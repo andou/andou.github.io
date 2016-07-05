@@ -48,7 +48,7 @@ Non arrendetevi cedendo alla tentazione di aggiungere un uovo all'impasto!!
 - Aggiungete lentamente i liquidi mescolati assieme al composto di farina, lievito e zucchero girando dolcemente il tutto; aggiungete lentamente mentre mescolate, cercando di non trovarvi nella situazione in cui si ha una palla di schifo e tutto il resto farinoso
 - Quando le farine e i liquidi si sono un pò mischiati tra di loro aggiungete il bicarbonato, mescolate ancora un pò e poi rovesciate tutto sul tavolo in cui lavorerete l'impasto
 - Lavorate l'impasto fino a che non ottenete una palla uniforme che non si attacchi né alle dita né alla superficie del tavolo; di solito in 10 minuti di olio di gomito ce la si cava
-- Quando avete la palla, fatela riposare in frigo per 10/20 minuti prima di stenderla
+- Quando avete la palla, fatela riposare in un posticino caldo per 20/30 minuti prima di stenderla
 - Dividete la palla di impasto in 5 o 6 pezzi e stendeteli separatamente con un mattarello per uno spessore di circa 6-8mm; se quando stendete l'impasto questo si appiccica al mattarello o al tavolo, va reimpastato un pochino
 - Tagliate i biscotti con le formine che preferite
 - Informate i biscotti distanziati tra di loro in forno statico a 200 gradi circa fino a che non risultano cotti, generalmente in 15 minuti si cuociono
