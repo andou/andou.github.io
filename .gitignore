@@ -1,4 +1,4 @@
-_site
-.sass-cache
-.jekyll-metadata
-.pippo
+_site/
+node_modules/
+package-lock.json
+
